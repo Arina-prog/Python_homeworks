@@ -8,3 +8,4 @@ while(count <= vaiue):
     mult *= count
     count += 1
 print("multiplacation is " + str(mult))
+print('multiplacation is ', mult)

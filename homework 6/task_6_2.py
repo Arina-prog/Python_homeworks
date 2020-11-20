@@ -4,6 +4,8 @@
 
 book = ["Margo taguhin", "Musa leran 40 or@", "Vardananq"]
 count = int(input("input book name count: \n"))
+# book.append(input('Write your favorite Book name: '))
 while(len(book) < count):
     book.append(input("input book name:\n "))
 print(book)
+

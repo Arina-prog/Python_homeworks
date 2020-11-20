@@ -7,3 +7,9 @@ for char in str1:
     if char == ",":
         word_count += 1
 print(word_count+1)
+
+#######################
+
+str_1 = input('Input string \n: ')
+number_of_words = str_1.count(',') + 1
+print(number_of_words)
