@@ -16,3 +16,10 @@ for film in people_1:
         watch_1.append(film)
 print(watch_1)
 print(group)
+#########################
+print("###################")
+people_1 = {"Dom 1", "Apokalipsis", "Avatar", "Farsazh 7", "Taxi 3"}
+people_2 = {"Dom 3, 'New years", "Farsazh 7", "Taxi 3"}
+print(people_1&people_2)
+print(people_1-people_2)
+# print(people_1people_2)

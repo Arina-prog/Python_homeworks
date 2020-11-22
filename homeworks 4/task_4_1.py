@@ -15,4 +15,18 @@ for i in week:
 print(working_days)
 print(len(week))
 print(week[5:])
+print(week[:5])
+print(odd_days)
+
+#########version 2############################
+working_days = []
+odd_days = []
+for i in week:
+    if week.index(i) % 2 !=0:
+        odd_days.append(i)
+
+
+print(len(week))
+print(week[5:])
+print(week[:5])
 print(odd_days)

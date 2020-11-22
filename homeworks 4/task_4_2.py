@@ -15,3 +15,12 @@ for i in color:
 print(color)
 print(length)
 print(even_pos)
+######################vers 2##############
+even_pos = []
+for i in color:
+    if color.index(i) % 2 == 0:
+        even_pos.append(i)
+
+print(color)
+print(length)
+print(even_pos)
