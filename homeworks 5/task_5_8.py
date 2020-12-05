@@ -5,3 +5,6 @@ str1 = input("input str\n")
 str2 = str1.replace("1", "one")
 print(str1)
 print(str2)
+
+
+

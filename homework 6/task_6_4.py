@@ -3,7 +3,13 @@
 # 1-st and not watched by 2-nd, print results
 # Создать 2 коллекции для хранения фильмов, которые смотрели 2 человека, получить фильмы,
 # которые смотрел хотя бы один из них, получить фильмы, которые смотрел 1-й, а не 2-й, распечатать результаты
+#####set####
+people_1 = {"Dom 1", "Apokalipsis", "Avatar", "Farsazh 7", "Taxi 3"}
+people_2 = {"Dom 3, 'New years", "Farsazh 7", "Taxi 3"}
+print(people_1 & people_2)
+print(people_1 - people_2)
 
+###################################
 people_1 = ["Dom 1", "Apokalipsis", "Avatar", "Farsazh 7", "Taxi 3"]
 people_2 = ["Dom 3, 'New years", "Farsazh 7", "Taxi 3"]
 group = people_2
@@ -17,9 +23,3 @@ for film in people_1:
 print(watch_1)
 print(group)
 #########################
-print("###################")
-people_1 = {"Dom 1", "Apokalipsis", "Avatar", "Farsazh 7", "Taxi 3"}
-people_2 = {"Dom 3, 'New years", "Farsazh 7", "Taxi 3"}
-print(people_1&people_2)
-print(people_1-people_2)
-# print(people_1people_2)

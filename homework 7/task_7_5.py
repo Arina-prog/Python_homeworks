@@ -7,6 +7,7 @@
 
 company_name= ["kit kat", "Coca colla", "Oracle", "UPS", "Mars", "Astromaps", "Google", "Moodle", "Joomag"]
 comb = input("input simbol combination:\n ")
+####################
 def search_s(arr):
     names= []
     for name in arr:
@@ -14,8 +15,8 @@ def search_s(arr):
             names.append(name)
     return names
 
-# print(search_s(company_name))
-
+print(search_s(company_name))
+####################
 def search_oo(arr, simv):
     names= []
     for name in arr:

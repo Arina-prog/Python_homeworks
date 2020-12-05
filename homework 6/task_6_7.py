@@ -2,9 +2,8 @@
 # * Рассчитайте умножение чисел от 0 до входного значения и распечатайте его
 mult = 1
 count = 1
-# count = 0
-vaiue = int(input("input namber : \n"))
-while(count <= vaiue):
+value = int(input("input namber : \n"))
+while(count <= value):
     mult *= count
     count += 1
 print("multiplacation is " + str(mult))

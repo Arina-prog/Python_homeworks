@@ -9,7 +9,7 @@ while(calc <= count):
     number.append(int(input("input number")))
     calc += 1
 for num in number:
-    if int(pow(num, 2)) < 26:
+    if int(pow(num, 0.5)) < 26:
         result = num
-print(num)
 print(number)
+print(result)

@@ -17,7 +17,12 @@ for name in name1:
         name2.append(name)
 print("name2 {}".format(name2))
 
-
-
-
-
+###################
+names = []
+name2 = []
+while(len(names) < 6):
+    names.append(input("input list 2` names {}:\n".format(len(names))))
+for name in names:
+    if name.find('A')!=-1:
+        name2.append(name)
+print(name2)
