@@ -6,8 +6,37 @@
 
 class Smartphone:
     """"this is smartphone class"""
-    def __init__(self, type, color, signalisation, is_open):
+
+    def __init__(self, type, color, coll_song, password, contacts):
         self.type = type
         self.color = color
-        self.__signalisation = signalisation
-        self.__is_open = is_open
+        self._coll_song = coll_song
+        self.__password = password
+        self.__contacts = contacts
+
+    def status_phone(self, password):
+        if password == self.__password:
+            print("lock is open")
+        else:
+            print("phone loched")
+
+    def show(self):
+        print("phone type is " + self.type, "\n", "phone color is " + self.color, "\n",
+              "phone coll song is " + self._coll_song,
+              "\n", "contacts " + str(self.__contacts),"\n", "password is " + str(self.__password))
+    # def change_possword(self):
+
+
+sony = Smartphone("Xperia_S1", "whate", "ding_dong", 123, {"Anna": 234568, "Narek": 1245862, "Aren": 25864})
+sony.show()
+print("____poxel zangn protected_____")
+
+
+sony._coll_song = "tulu-lulu"
+sony.show()
+
+print("____poxel passwordn private_____")
+
+sony._Smartphone__password = 245
+sony.show()
+sony. status_phone(245)
