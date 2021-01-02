@@ -38,15 +38,15 @@ class Employee:
 
 
 employ = Employee(name="Arman", position="Manager", salary=125000, weekdays=["erkushabti", "ereqshabti",
-                                                                        "choreqshabti", "hingshabti", "urbat",
-                                                                        "shabat"],
-             tasks_name=["hachaxordneri spasarkum", "hashvetvutyan kazmum"])
+                                                                             "choreqshabti", "hingshabti", "urbat",
+                                                                             "shabat"],
+                  tasks_name=["hachaxordneri spasarkum", "hashvetvutyan kazmum"])
 employ.change_position("administrator")
 employ.check_salary(55000)
 employ.show()
 print("_________employee 1_______")
-employee_1 = Employee("Karen","teacher", 89000, ["erkushabti", "choreqshabti", "urbat", "shabat"],
-["dasi anckacum", "gortsnakan parapmunq", "arajadranqneri stugum"])
+employee_1 = Employee("Karen", "teacher", 89000, ["erkushabti", "choreqshabti", "urbat", "shabat"],
+                      ["dasi anckacum", "gortsnakan parapmunq", "arajadranqneri stugum"])
 employee_1.show()
 print("_________change position_______")
 employee_1.change_position("administrator")
@@ -60,4 +60,3 @@ employee_1.days_salary()
 employee_1.show()
 
 print(employ.name)
-

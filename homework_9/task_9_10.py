@@ -14,7 +14,7 @@ class Person:
         if age > 30:
             self.age = age
         else:
-            self.age ="tariqn chihamapatasxanum"
+            self.age = "tariqn chihamapatasxanum"
         # print(self.age)
 
     def sex(self, sex):

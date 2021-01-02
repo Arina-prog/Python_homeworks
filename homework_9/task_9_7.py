@@ -14,6 +14,7 @@ class Animal:
 
 
 class Bear(Animal):
+
     def voice(self):
         print("brrrr")
 
@@ -22,6 +23,7 @@ class Bear(Animal):
 
 
 class Wolf(Animal):
+
     def yell(self):
         print("auuuu")
 

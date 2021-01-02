@@ -5,6 +5,7 @@
 # #     return num*3
 # #
 # #
+
 # # result = list(map(multiply_by_3, nnumber))
 # # print(result)
 #

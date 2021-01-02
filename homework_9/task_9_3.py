@@ -37,7 +37,7 @@ class Ticket:
               "arrival time - " + str(self.arrival_time), "\n", "passager - " + self.passager, "\n")
 
 
-ertuxi_1 = Ticket("Erevan", "Sisian", "mikroavtobus", 180, {17:00}, "Ani Balyan")
+ertuxi_1 = Ticket("Erevan", "Sisian", "mikroavtobus", 180, {17: 00}, "Ani Balyan")
 ertuxi_1.show()
 print("__________passager 1_________")
 
