@@ -5,5 +5,5 @@
 # и умножьте на 3 элемента в нечетных позициях,
 # распечатайте результат.
 
-from  multiprocessing import Process
+from multiprocessing import Process
 
