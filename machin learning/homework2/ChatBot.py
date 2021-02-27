@@ -21,25 +21,20 @@ class ChatBot:
             return random.choice(simple_answers)
 
 
-Bob = ChatBot()
-Jek = ChatBot()
+bob = ChatBot()
 
+jek = ChatBot()
+answer = ""
 
 while True:
-    user_input = input("mutq start  ")
-    if user_input != "start":
-        continue
+    if "by" in answer:
+        break
+    else:
+        answer = bob.reply(answer)
+        print("Bob typing ...\n", "  ", answer)
+    if "by" in answer:
+        break
+    else:
+        answer = jek.reply(answer)
+        print("Jek tayping ...\n", "  ", answer)
 
-    while True:
-
-        if "by" in user_input:
-            break
-        else:
-            Bobs = Bob.reply(user_input)
-            print("Bob typing ...\n", "  ", Bobs)
-        if "by" in Bobs:
-            break
-        else:
-            Jeks = Jek.reply(Bobs)
-            print("Jek tayping ...\n", "  ", Jeks)
-        user_input = Jeks
