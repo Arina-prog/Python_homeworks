@@ -15,12 +15,11 @@ print(guess_randomly())
 
 
 def guess_shannon(prev, attempt, user_input):
-    predicted_number = "stone"
     if attempt < 4:
         predicted_number = guess_randomly()
     else:
         if history[(prev, "stone")] > history[(prev, "paper")] > history[(prev, "scissors")]:
-            predicted_number = predicted_number
+            predicted_number = "paper"
         elif history[(prev, "stone")] < history[(prev, "paper")] < history[(prev, "scissors")]:
             predicted_number = "stone"
         else:
