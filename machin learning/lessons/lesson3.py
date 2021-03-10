@@ -16,9 +16,10 @@ ml_model = LinearRegression()
 # superviz
 ml_model.fit(previous_days, next_days)
 
-ml_model.intercept_
+ml_model.intercept_#b-n banadzevi
 #intercept
-ml_model.coef_
+ml_model.coef_#a-n banadzevi
+# y_pred = ml_model.intercept_ + ml_model.coef_*X
 #slope
 # plt.scatter(previous_days,next_days , color='red')
 # plt.xlabel('previous_days')
