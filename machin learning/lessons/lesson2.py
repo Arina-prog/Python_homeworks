@@ -83,12 +83,12 @@ class ChatBotMl:
         # print(html_content)
 
 
-Bob = ChatBotMl()
+bob = ChatBotMl()
 
-Bob.reply("first armenian sentence")
+bob.reply("first armenian sentence")
 # while True:
 #     user_input = input("input your text ")
-#     print(Bob.reply(user_input))
+#     print(bob.reply(user_input))
 
 
 
